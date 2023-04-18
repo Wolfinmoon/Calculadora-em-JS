@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(150deg, #0077e6, #0c4377);
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    position: absolute;
+    background-color: #252525dc;
+    top: 50%;
+    left: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #636363;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #505050;
+}
+
+.tela {
+    background-color: #fff;
+    height: 30px;
+    color: #000;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
+}
+
